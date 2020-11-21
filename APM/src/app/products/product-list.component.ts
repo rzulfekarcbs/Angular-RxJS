@@ -14,7 +14,7 @@ export class ProductListComponent implements OnDestroy {
   pageTitle = 'Product List';
   errorMessage = '';
   categories;
-
+  // comment
   products$ = this.productService.products$.pipe(
                 catchError(err => {
                   this.errorMessage = err;
